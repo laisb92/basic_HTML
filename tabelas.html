@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas HTML</title>
+</head>
+<body>
+    <main>
+        <h1>Tabelas do HTML</h1>
+
+        <section id="Students">
+            <h2>Tabela de Alunos</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Matricula</th>
+                        <!--th da distaque para o cabecalho, fica em negrito e centralizado-->
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    <tr>
+                    <td>Carol Denvers</td>
+                    <td>carol.denvers@email.com</td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>Peter Parker</td>
+                    <td>peter.parkers@email.com</td>
+                    <td>2</td>
+                </tr>
+                <!--tr são as linhas -->
+
+                <tr>
+                    <td>Tony Stark</td>
+                    <td>tony.stark@email.com</td>
+                    <td>3</td>
+                </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+        <section id="Finance">
+            <h2> Tabela de Controle Fianceiro</h2>
+            <table border="1">
+                
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <!--rowspan ferramenta de mesclar, ams quando usar apagar a linha de baixo-->
+                        <td rowspan="2">15/06/2022</td>
+                        <td>Despesa</td>
+                        <td>Almoço</td>
+                        <td>R$ 35,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Receita</td>
+                        <td>Salário</td>
+                        <td>R$ 3.750,00</td>
+                    </tr>
+                </tbody>
+                      <!--mesclar coluna usa ....colspan-->
+            </table>
+        </section>
+        
+
+    </main>
+    
+</body>
+</html>
